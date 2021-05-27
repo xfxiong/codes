@@ -1,0 +1,85 @@
+{
+  "name": "test_steps_demo[unittest]",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "打开百度网页",
+      "status": "passed",
+      "start": 1620269336892,
+      "stop": 1620269346922
+    },
+    {
+      "name": "输入搜索词unittest",
+      "status": "passed",
+      "start": 1620269346922,
+      "stop": 1620269351158
+    },
+    {
+      "name": "保存图片",
+      "status": "passed",
+      "attachments": [
+        {
+          "source": "e8384912-6c49-41f4-9cd7-2ad2a434170f-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1620269351158,
+      "stop": 1620269351377
+    },
+    {
+      "name": "关闭浏览器",
+      "status": "passed",
+      "start": 1620269351377,
+      "stop": 1620269355514
+    }
+  ],
+  "parameters": [
+    {
+      "name": "test_data1",
+      "value": "'unittest'"
+    }
+  ],
+  "start": 1620269336892,
+  "stop": 1620269355514,
+  "uuid": "dc89a9d6-23aa-4e7d-92f5-09de13c31a9d",
+  "historyId": "9d3532b766754098dc367a1f5ff7e69c",
+  "testCaseId": "c1bd71ed6b29aa553aa5af4cbca54344",
+  "fullName": "test_baidudemo#test_steps_demo",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "百度搜索"
+    },
+    {
+      "name": "suite",
+      "value": "test_baidudemo"
+    },
+    {
+      "name": "host",
+      "value": "PS20190621JJIU"
+    },
+    {
+      "name": "thread",
+      "value": "7668-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_baidudemo"
+    }
+  ],
+  "links": [
+    {
+      "type": "test_case",
+      "url": "http://www.baidu.com",
+      "name": "http://www.baidu.com"
+    }
+  ]
+}
